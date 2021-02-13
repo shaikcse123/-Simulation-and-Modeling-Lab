@@ -1,0 +1,11 @@
+[RESOURCES]
+Resource 1
+[VARIABLES]
+q.NumberOut
+q.NumberIn
+both.NumberOut
+both.NumberIn
+Decide 1.NumberOut True
+arrival.NumberOut
+Decide 1.NumberOut False
+exit.NumberOut

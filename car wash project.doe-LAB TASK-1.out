@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                     Shaik - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Car wash                                                    Run execution date : 2/ 7/2021
+Analyst: Rockwell Automation                                         Model revision date: 2/ 7/2021
+
+Replication ended at time      : 14.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+car.VATime                                  .19232     (Insuf)    .13911     .24007         72    
+car.NVATime                                 .00000     (Insuf)    .00000     .00000         72    
+car.WaitTime                                2.2081     (Insuf)    .00000     4.4362         72    
+car.TranTime                                .00000     (Insuf)    .00000     .00000         72    
+car.OtherTime                               .00000     (Insuf)    .00000     .00000         72    
+car.TotalTime                               2.4004     (Insuf)    .17999     4.6368         72    
+Car wash system.Queue.WaitingTime           2.2405     (Insuf)    .00000     4.5684         73    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+car.WIP                                     17.851     (Insuf)    .00000     36.000     34.000    
+wash machine.NumberBusy                     1.0000     (Insuf)    .00000     1.0000     1.0000    
+wash machine.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+wash machine.Utilization                    1.0000     (Insuf)    .00000     1.0000     1.0000    
+Car wash system.Queue.NumberInQueue         16.851     (Insuf)    .00000     35.000     33.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+car.NumberIn                                106.00    
+car.NumberOut                               72.000    
+wash machine.NumberSeized                   73.000    
+wash machine.ScheduledUtilization           1.0000    
+System.NumberOut                            72.000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.
